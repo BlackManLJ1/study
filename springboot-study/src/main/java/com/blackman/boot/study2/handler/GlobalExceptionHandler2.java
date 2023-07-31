@@ -13,16 +13,12 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 自定义异常处理
  */
+
+/**
 @Slf4j
 @ControllerAdvice
 public class GlobalExceptionHandler2 {
 
-    /**
-     * 处理自定义的业务异常
-     * @param req
-     * @param biz
-     * @return
-     */
     @ExceptionHandler(BizException.class)
     @ResponseBody
     public ResultResponse bizExceptionHandler(HttpServletRequest req, BizException biz) {
@@ -44,5 +40,4 @@ public class GlobalExceptionHandler2 {
         return ResultResponse.error(ExceptionEnum.INTERNAL_SERVER_ERROR);
     }
 
-
-}
+ **/
