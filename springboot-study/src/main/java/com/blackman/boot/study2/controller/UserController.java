@@ -1,3 +1,4 @@
+/*
 package com.blackman.boot.study2.controller;
 
 import com.blackman.boot.study2.exception.BizException;
@@ -25,3 +26,4 @@ public class UserController {
         return true;
     }
 }
+*/
